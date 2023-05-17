@@ -16,7 +16,7 @@ inputs.forEach((inp) => {
             answer.value = eval(screenvalue);
         }
         else if(text == "DEL"){
-            answer.value = answer.value.substr(0, answer.value.length - 1); // paarth
+            answer.value = answer.value.substr(0, answer.value.length - 1); 
         }
         else{
             screenvalue += text;
